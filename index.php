@@ -97,10 +97,12 @@
 
 <div class='container' onresize="floatFunction()">
     <div id='top' >
-        <button id='name' ><a href="#top2" class="smoothScroll">Your Name</a></button>
-        <button class='non' class='button'><a href="#acts" class="smoothScroll">Activities</a></button></td>
-        <button class='non' class='button'><a href="#projects" class="smoothScroll">Projects</a></button></td>
-        <button class='non' class='button'><a href="images/resume.pdf" class="smoothScroll">Resume</a></button></td>
+      <a href="#top2" class="smoothScroll"><div class="halfDiv adjust">Your Name</div></a>
+      <div class="halfDiv adjust">
+        <a href="#acts" class="smoothScroll"><div class="thirdDiv adjust">Activities</div></a>
+        <a href="#projects" class="smoothScroll"><div class="thirdDiv adjust">Projects</div></a>
+        <a href="images/resume.pdf" class="smoothScroll"><div class="thirdDiv adjust">Resume</div></a>
+      </div>
     </div>
 
     <a name='top2' class="floaty">
