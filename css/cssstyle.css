@@ -1,7 +1,7 @@
 /* Import Font */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -30,7 +30,7 @@ li {
 
 table{
   width: 100%;
-  align: center;
+    margin: auto;
   padding-left: 260px;
   padding-right: 260px;
 }
@@ -39,7 +39,7 @@ td{
   padding-left: 6px;
   padding-right: 6px;
   width: 33.333%;
-  border: display;
+  border: 1px;
   font-size: 20px;
 }
 
@@ -142,7 +142,12 @@ button, input[type='button'] {
   position: fixed;
   /*vertical-align: top;*/
   width: 100%;
-  margin: none;
+  /*margin: none;*/
+  z-index : 5;
+}
+
+#calendar{
+  z-index : 0;
 }
 
 #footer{

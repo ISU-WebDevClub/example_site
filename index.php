@@ -29,7 +29,7 @@
 				center: 'title',
 				right: 'month,agendaWeek,agendaDay,listWeek'
 			},
-			defaultDate: '2016-12-12',
+			defaultDate: '<?php echo date("Y-m-d"); ?>',
 			navLinks: true, // can click day/week names to navigate views
 			editable: true,
 			eventLimit: true, // allow "more" link when too many events
@@ -214,7 +214,8 @@
                 </div>
             </form>
         </div>
-
+        <br>
+        <br>
         <div style="clear:both; width:80%; margin: 0 auto;"  id='calendar'></div>
 
     </div>
@@ -233,4 +234,3 @@
 
 
 <?php ?>
-
