@@ -1,7 +1,7 @@
 /* Import Font */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video {
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -11,76 +11,76 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
     background: transparent;
 }
 a, a:visited, a:active {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 a:hover{
-  color: white;
+    color: white;
 }
 p{
-  font-size: 2.2em;
+    font-size: 2.2em;
 }
 
 li {
-  width:200px;
-  margin: auto;
-  text-align:left;
+    width:200px;
+    margin: auto;
+    text-align:left;
 }
 
 table{
-  width: 100%;
-    margin: auto;
-  padding-left: 260px;
-  padding-right: 260px;
+    width: 100%;
+    align: center;
+    padding-left: 260px;
+    padding-right: 260px;
 }
 
 td{
-  padding-left: 6px;
-  padding-right: 6px;
-  width: 33.333%;
-  border: 1px;
-  font-size: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 33.333%;
+    border: display;
+    font-size: 20px;
 }
 
 button, input[type='button'] {
-	box-sizing: border-box;
-	display: inline-block;
-  padding: 7px 12px;
-  margin-bottom: 0;
-  font-size: 25px;
-  font-weight: 400;
-  line-height: 1.5;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: left;
-  -ms-touch-action: manipulation;
-  touch-action: manipulation;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  background-image: none;
-  border: 0px solid transparent;
-  border-radius: 4px;
-	margin-top: 1px;
-  margin-bottom: 1px;
-  color: black;
-  background-color: inherit;
-  font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 7px 12px;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: left;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 0px solid transparent;
+    border-radius: 4px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    color: black;
+    background-color: inherit;
+    font-family: "Open Sans", sans-serif;
 }
 
 .container {
- text-align: center;
- font-family: "Open Sans", sans-serif;
- border-collapse: collapse;
- padding:0;
- margin:0;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    border-collapse: collapse;
+    padding:0;
+    margin:0;
 }
 
 .centered {
-  text-align: center;
+    text-align: center;
 }
 
 .form-control {
@@ -104,102 +104,97 @@ button, input[type='button'] {
 }
 
 .middle{
-  background-color:rgb(241, 241, 241);
-  padding: 0px;
-  vertical-align: top;
-  font-size: 1.2em;
-  margin: none;
+    background-color:rgb(241, 241, 241);
+    padding: 0px;
+    vertical-align: top;
+    font-size: 1.2em;
+    margin: none;
 }
 
 .acts{
-  background-color: black;
-  vertical-align: top;
-  align: center;
-  margin: none;
-  color: white;
+    background-color: black;
+    vertical-align: top;
+    align: center;
+    margin: none;
+    color: white;
 }
 
 .projects{
-  background-color: #193F64;
-  padding: 0px;
-  vertical-align: top;
-  margin: none;
-  color: rgb(241, 241, 241);
+    background-color: #193F64;
+    padding: 0px;
+    vertical-align: top;
+    margin: none;
+    color: rgb(241, 241, 241);
 }
 
 .img{
-  height: 170px;
-  width: 165px;
+    height: 170px;
+    width: 165px;
 }
 .img_p{
-  height: 170px;
-  width: 165px;
-  border-radius: 100%;
+    height: 170px;
+    width: 165px;
+    border-radius: 100%;
 }
 
 #top{
-  background-color: rgb(60, 119, 196);
-  position: fixed;
-  /*vertical-align: top;*/
-  width: 100%;
-  /*margin: none;*/
-  z-index : 5;
-}
-
-#calendar{
-  z-index : 0;
+    background-color: rgb(60, 119, 196);
+    position: fixed;
+    /*vertical-align: top;*/
+    width: 100%;
+    margin: none;
 }
 
 #footer{
-  font-family: "Times New Roman", serif;
-  height: 50px;
-  padding: 14px 2px;
-  background: black;
-  color: dimgrey;
-  text-align: right;
+    font-family: "Times New Roman", serif;
+    height: 50px;
+    padding: 14px 2px;
+    background: black;
+    color: dimgrey;
+    text-align: right;
 }
 
 #summary{
-  width: 60%;
-  align: center;
-  margin-left: 20%;
+    width: 60%;
+    align: center;
+    margin-left: 20%;
 }
 #toMakeFly{
-  border-radius: 40%;
-  width: 350px;
+    border-radius: 40%;
+    width: 350px;
 }
 #name{
-  margin-right: 50%;
-  text-align: left;
-  font-size: 25px;
-  margin-left: 0px;
-  padding-left: 0px;
-  /*font-family: "Times New Roman", serif;*/
+    margin-right: 50%;
+    text-align: left;
+    font-size: 25px;
+    margin-left: 0px;
+    padding-left: 0px;
+    /*font-family: "Times New Roman", serif;*/
 }
 #form-submit{
-  background-color: black;
-  margin: 4px;
-  color: rgb(241, 241, 241);
-  font-size: 17px;
+    background-color: black;
+    margin: 4px;
+    color: rgb(241, 241, 241);
+    font-size: 17px;
 }
 
 #pro_text{
-  font-size: 22px;
+    font-size: 22px;
 }
 
 /* div formatting */
 
 div.adjust{
-  float: left;
-  text-align: left;
-  display: inline-block;
+    float: left;
+    text-align: left;
+    display: inline-block;
 }
 
 div.thirddiv{
-  width: 33%;
+    width: 33%;
 }
 
 div.halfDiv{
- width: 49%
- padding-top: 3%;
+    width: 49%
+    padding-top: 3%;
 }
