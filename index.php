@@ -119,67 +119,47 @@ echo " <link rel=\"stylesheet\" href=\"css/cssstyle.css\" >";
                 <br>
                 <br>
             </a>
-            <p>Things I do</p>
+            <h1>Things I do</h1>
             <br>
             <br>
-            <table>
-                <tr>
-                    <td>Activity 1</td>
-                    <td>Activity 2</td>
-                    <td>Activity 3</td>
-                </tr>
-                <tr>
-                    <td><img src="images/fake.png" class='img'></td>
-                    <td><img src="images/fake.png" class='img'></td>
-                    <td><img src="images/fake.png" class='img'></td>
-                </tr>
-                <tr>
-                    <td>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                    </td>
-                    <td>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                    </td>
-                    <td>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.
-                    </td>
-                </tr>
-            </table>
+            <div id="activitiesdiv">
+               <div class="thirdDiv columnDiv">
+                  <div><p>Activity 1</div>
+                  <div><img src="images/fake.png" class='img'></div>
+                  <div><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quas</p></div>
+               </div>
+               <div class="thirdDiv columnDiv">
+                  <div><p>Activity 2</div>
+                  <div><img src="images/fake.png" class='img'></div>
+                  <div><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quas</p></div>
+               </div>
+               <div class="thirdDiv columnDiv">
+                  <div><p>Activity 3</div>
+                  <div><img src="images/fake.png" class='img'></div>
+                  <div><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quas</p></div>
+               </div>
+            </div>
             <br>
 
         </div>
 
         <div class='projects' class="floaty">
             <a name="projects"><br><br></a>
-            <p>Projects</p>
+            <h1>Projects</h1>
             <br>
-            <table>
-                <tr id='pro_text'>
-                    <td>Project 1</td>
-                    <td>Project 2</td>
-                </tr>
+            <div id="projectdiv">
+               <div class="halfDiv columnDiv">
+                  <div><p>Project 1</div>
+                  <div><img src="images/fake.png" class='img'></div>
+                  <div><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quas</p></div>
+               </div>
+               <div class="halfDiv columnDiv">
+                  <div><p>Project 2</div>
+                  <div><img src="images/fake.png" class='img'></div>
+                  <div><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quas</p></div>
+               </div>
+            </div>
 
-                <tr>
-                    <td>
-                        <a href=''>
-                            <img src="images/fake.png" class='img_p'>
-                        </a>
-                    </td>
-                    <td>
-                        <a href=''>
-                            <img src="images/fake.png" class='img_p'>
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                    </td>
-                    <td>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                    </td>
-                </tr>
-            </table>
             <br>
 
         </div>
