@@ -109,7 +109,7 @@ echo " <link rel=\"stylesheet\" href=\"css/cssstyle.css\" >";
             <br>
             <div id='summary'>
                 <br>
-                   HERP HERP HERP HERP HERP HERP
+                   DERP DERP DERP DERP DERP DERP
             </div>
             <br>
         </div>
