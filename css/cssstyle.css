@@ -18,7 +18,9 @@ a, a:visited, a:active {
 a:hover{
     color: white;
 }
-p{
+p{}
+
+h1{
     font-size: 2.2em;
 }
 
@@ -190,11 +192,16 @@ div.adjust{
     display: inline-block;
 }
 
-div.thirddiv{
+div.thirdDiv{
     width: 33%;
 }
 
 div.halfDiv{
-    width: 49%
-    padding-top: 3%;
+    width: 49%;
+    padding-top: 1%;
+}
+
+div.columnDiv{
+    display: inline-block;
+    font-size: 20px;
 }
